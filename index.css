@@ -1,0 +1,609 @@
+/* bootstrap custom classes */
+.green-gradient {
+  background-image: linear-gradient(15deg, #4CAF50 0%, #0BC816 100%);
+}
+
+/* regular css */
+
+#post_tabs_vert {
+  display: none;
+}
+#navbar_logo {
+  display: inline-block;
+}
+div#nav_dropdown_small {
+  display: none;
+}
+form#search_form_small {
+  display: none;
+}
+html, body {
+  background-color: #F1F1F1;
+  height:100vh;
+  font-size: 1rem;
+}
+div#profile_picture_dropdown{
+  z-index: 10;
+}
+div#profile_picture_navbar {
+  right:0;
+  z-index: 10;
+}
+div#nav_dropdown_small {
+  right: 0;
+  z-index: 10;
+}
+div#profile_dropdown_small {
+  width: 100%;
+}
+input#navbar_search {
+  margin-right: 60px;
+}
+.dropdown-toggle::after{
+  content:none;
+}
+#main_content_block {
+  background-color: white;
+  border-radius: 8px;
+}
+#posts {
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+.profile-picture-index {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.profile-picture-index img {
+  width: auto;
+  height: 100%;
+  margin-left: -12.5px;
+  vertical-align: middle;
+}
+.profile-picture-index-jpeg {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.profile-picture-index-jpeg img {
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.profile-picture-default-index {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+.profile-picture-default-index img {
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+
+}
+.dropdown-item {
+  z-index: 10;
+}
+div#userLinks {
+  background-color: white;
+  border-radius: 8px;
+}
+
+nav#top_navbar {
+  z-index: 2;
+}
+a, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* register.html css */
+
+div.loginwindow {
+  display:block;
+  position: relative;
+  background-color: white;
+  margin: auto;
+  min-height:40vh;
+  max-width:50vw;
+  padding:12px;
+  margin-top:1vh;
+  text-align: center;
+  border-radius: 16px;
+}
+div#infofields{
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+}
+img#logo_register {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+div.input-group {
+  margin-bottom:1%;
+  width:auto;
+}
+
+h3#login_link {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* notifications.php stuff */
+
+.profile-picture-notifications {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right:10px;
+}
+.profile-picture-notifications img {
+  width: auto;
+  height: 100%;
+  margin-left: -10px;
+  vertical-align: middle;
+}
+.profile-picture-notifications-jpeg {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right:10px;
+}
+.profile-picture-notifications-jpeg img {
+  width: auto;
+  height: 100%;
+
+  vertical-align: middle;
+}
+.profile-picture-notifications-default {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right:10px;
+}
+.profile-picture-notifications-default img {
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.bg-lightgray {
+  background-color: #DADADA
+}
+.bg-lightgray:hover {
+  background-color: #B8B8B8
+}
+.bg-lightgray:active {
+  background-color: #B8B8B8;
+  -moz-box-shadow:    inset 0 0 6px #000000;
+   -webkit-box-shadow: inset 0 0 6px #000000;
+   box-shadow:         inset 0 0 6px #000000;
+}
+.br {
+  border-radius: 4px;
+}
+.friend_buttons {
+  background: none;
+  border: none;
+}
+.friend_buttons_accept:hover {
+  border-radius: 4px;
+  background-color: #DCEEDA;
+}
+.friend_buttons_ignore:hover {
+  border-radius: 4px;
+  background-color: #EEDADA;
+}
+
+/* friends.php stuff */
+
+#friendList, #friendListTable {
+  margin: 0;
+}
+#messages_area {
+  min-height: 345px;
+}
+#chat_box {
+  height: 100%;
+  margin: 0;
+
+}
+#message_bar {
+  position: sticky;
+  bottom: 0px;
+  margin-bottom: 0;
+}
+#friendPage {
+  margin: 0;
+  padding: 0;
+  height:auto;
+  overflow: auto;
+}
+#friendsLabel {
+  margin-left: auto;
+  margin-right: auto;
+  height:50px;
+}
+#chatWindow {
+  height:450px;
+  max-height:450px;
+  overflow-y:auto;
+  border-radius: 8px;
+}
+#submit_button_icon {
+  color: white;
+  display: inline-block;
+}
+button#send_chat {
+  background: none;
+  border: none;
+}
+
+.chat_start_button {
+  background: none;
+  border: none;;
+}
+
+.statusonlinelabel{
+  background-color:#14B73A;
+  border-radius:8px;
+  color:white;
+  padding-left:6px;
+  padding-right:6px;
+}
+.statusofflinelabel {
+  background-color:#CE1B1B;
+  border-radius:8px;
+  color:white;
+  padding-left:6px;
+  padding-right:6px;
+}
+.profile-picture-friends {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right:10px;
+}
+.profile-picture-friends img {
+  width: auto;
+  height: 100%;
+  margin-left: -10px;
+}
+.profile-picture-friends-jpeg {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right:10px;
+}
+.profile-picture-friends-jpeg img {
+  width: auto;
+  height: 100%;
+
+}
+.profile-picture-default {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right:10px;
+}
+.profile-picture-default img {
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+/* profile page stuff */
+#profilePosts {
+  list-style-type: none;
+}
+#friendButton {
+  background: none;
+  border: 0;
+}
+.profile-page-picture {
+  border: 7.5px solid white;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 2;
+  margin-left: 5%;
+  margin-top:-75px;
+  margin-right: 0;
+}
+.profile-page-picture img {
+  width: auto;
+  height: 100%;
+  margin-left: -42.5px;
+}
+.profile-page-picture-jpeg {
+  border: 7.5px solid white;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 2;
+  margin-left: 5%;
+  margin-top:-75px;
+  margin-right: 0;
+}
+.profile-page-picture-jpeg img {
+  width: auto;
+  height: 100%;
+
+}
+.profile-page-picture-default {
+  border: 7.5px solid white;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 2;
+  margin-left: 5%;
+  margin-right: 0;
+  margin-top:-75px;
+}
+.profile-page-picture-default img {
+  width: auto;
+  height: 100%;
+}
+div.profile-page-padding {
+  position: relative;
+
+  margin-top: 100px;
+}
+div.behind-profile-picture {
+  background-color:white;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  width: 170px;
+  height:170px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: -75px;
+}
+
+.green {
+  color: #0BC816;
+}
+
+.center-tabs {
+  text-align: center;
+}
+
+
+/* post.php stuff */
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* topics stuff */
+button#reply_button, button#submit_like {
+  background: none;
+  border: 0;
+}
+hr.betweens {
+  height: 1px;
+  padding: 0;
+  margin: 0;
+}
+/* media queries */
+td#status {
+  display: block;
+}
+h4#homeLink, h4#subjectLink,
+h4#forumLink, h4#postLink {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  h4#homeLink, h4#subjectLink,
+  h4#forumLink, h4#postLink {
+    display: none;
+  }
+}
+@media (max-width: 727px) {
+  td#status {
+    display:none;
+  }
+  html, body {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 505px){
+  div#nav_dropdown_small {
+    display: inline-block;
+  }
+  form#search_form, div#profile_picture_navbar {
+    display: none;
+  }
+  #navbar_logo {
+    display: none;
+  }
+  form#search_form_small {
+    display: inline-block;
+  }
+  html, body {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 575px){
+  #post_tabs {
+    display: none;
+  }
+  #post_tabs_vert {
+    display: inline-block;
+  }
+  nav#subject_buttons {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    margin-top: 1%;
+    width: auto;
+  }
+  div#forumContent {
+    padding: 0;
+    margin-top: 1%;
+    text-align: left;
+
+  }
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+/* animation stuff */
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  100% {
+    transform:translateY(0rem);
+    opacity: 1;
+  }
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+label.subject-label {
+    font-size: 26px;
+    color: #4D4D4D;
+    position: absolute;
+    z-index: 10;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+input.subject-input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+
+    &:checked {
+
+        ~ .check {
+            border-color: #00EA90;
+            box-shadow: 0px 0px 0px 15px #00EA90 inset;
+
+            &::after {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 100px;
+    background-color: #FFF;
+    border: 2px solid #00EA90;
+    box-shadow: 0px 0px 0px 0px #00EA90 inset;
+    transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 4;
+        position: absolute;
+        transform: scale(0);
+        background-size: 50%;
+        background-image: url('http://moiza.ir/checkmark.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        transition-delay: 0.2s !important;
+        transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+    }
+}
